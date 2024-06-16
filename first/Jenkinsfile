@@ -23,6 +23,8 @@ pipeline {
         org.junit.platform.console.ConsoleLauncher --scan-classpath > test_results.txt' 
       }
     }
+    stage('Deploy'){
+    }
   }
   post {
     always {
